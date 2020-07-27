@@ -1,0 +1,13 @@
+[package]
+name = "sled-es"
+version = "0.1.0"
+authors = ["Sebastian Kaiser <sk4is3r@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cqrs-es = "0.0.18"
+sled = "0.34"
+serde = { version = "1.0.114", features = ["derive"]}
+serde_json = "1.0"
